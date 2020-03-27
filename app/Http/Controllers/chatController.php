@@ -10,4 +10,10 @@ class chatController extends Controller {
 		$data['flow_name'] = 'Wexplore_Smartworking_Demo';
     	return view('smartworking_chat', $data);
 	}
+
+	public function iframe() {
+		$data['session_id'] = 'SMARTWORK_DEMO_'.time();
+		$data['flow_name'] = 'Wexplore_Smartworking_Demo';
+		return view('smartworking_iframe', $data);
+	}
 }

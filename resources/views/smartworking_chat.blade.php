@@ -7,7 +7,7 @@
 @endpush
 
 @section('content')
-	<div id="blockchange-demo" class="container-fluid">
+	<div id="smartwork-demo" class="container-fluid">
 	    <div class="row justify-content-center">
 	        <div class="col-lg-6 card-container">
 	            <div class="card">
@@ -27,7 +27,7 @@
 	            </div>
 	            <div class="card">
 	            	<div class="buttons-container">
-	            		<a class="btn cta-btn text-uppercase px-4" href="/">Torna alla Dashboard o chiudi finestra (??)</a>
+	            		<a class="btn cta-btn text-uppercase px-4" href="javascript:window.close();">Chiudi e torna</a>  {{-- javascript:void(0) --}}
 	            	</div>
 	            </div>
 	        </div>
@@ -84,7 +84,7 @@
 				chat_image_header_closed : '{{asset('custom/chat-vic/logo_chat_aperta.png')}}',			
 				chat_send : '{{asset('custom/chat-vic/chat_send_msg.png')}}',
 				css_headers : '{{asset('custom/chat-vic/chat_CT.css')}}',
-				flow: 'Wexplore_Blockchange_Demo',
+				flow: '{{ $flow_name }}',
 				disable_signalR: true, 
 				// session_id: queryParameter("session_id"),
 				session_id: '{{ $session_id }}',

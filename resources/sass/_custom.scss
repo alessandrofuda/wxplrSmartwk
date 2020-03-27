@@ -1,8 +1,7 @@
-#login, #registr {
+/*#login, #registr {
 	padding-right: 0;
 	padding-left: 0;
 	height: 100vh;
-	/*overflow: hidden;*/
 }
 
 #login {
@@ -284,18 +283,17 @@
 	.completed-description {
 		margin-bottom: 50px;
 	}
-	/*vic b2c page*/
 	&.vic-b2c {
 		.card-container {
 			top: calc(50% - 390px);
 		}
 	}
-}
+}*/
 
-#blockchange-demo {
+#smartwork-demo {
 	position:relative;
 	background-image: linear-gradient(270deg, #69ba7a 0%, #055b76 100%);
-	min-height: calc(100vh - 55px);
+	min-height: calc(100vh);
 	.card-container {
 		position:absolute;
 		top:calc(50% - 430px);
