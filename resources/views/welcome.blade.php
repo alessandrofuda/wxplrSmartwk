@@ -64,7 +64,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -79,10 +79,19 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="container">
                 <div class="title m-b-md">
                     Laravel
                 </div>
+
+                <br><br><br>
+
+                <div class="iframe-container">
+                    <iframe class="iframe" src="http://smartworking-chat.wexplore.test/iframe" width="100%" height="660px" frameBorder="0" ></iframe>
+                </div>
+
+                <br><br><br>
+                <br><br><br>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

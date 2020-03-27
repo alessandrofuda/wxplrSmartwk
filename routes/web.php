@@ -15,3 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'chatController@index')->name('home');
 Route::get('/iframe', 'chatController@iframe')->name('iframe');
+
+
+Route::get('/iframe-test', function() {
+	return view('welcome');
+})->name('iframe-test');
