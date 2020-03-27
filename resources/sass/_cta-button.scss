@@ -1,0 +1,24 @@
+/*components - cta buttons*/
+.cta-btn {
+	width: auto;
+	min-width: 160px;
+	max-width: 250px;
+	min-height: 40px;
+	line-height: 35px;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, #6bb97a 31%, #5ab282 38%, #41a98e 52%, #2fa297 66%, #259e9c 82%, #229d9e 100%);
+	border: none;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	margin: 25px auto;
+
+	&:hover {
+		background-image: linear-gradient(to left, #6bb97a 31%, #5ab282 38%, #41a98e 52%, #2fa297 66%, #259e9c 82%, #229d9e 100%);
+		color: #ffffff;
+		text-shadow: 1px 1px 0px #888888;
+		box-shadow: 1px 1px 0px #888888;
+	}
+}
+
