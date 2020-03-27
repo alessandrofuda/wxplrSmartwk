@@ -87,7 +87,7 @@
                 <br><br><br>
 
                 <div class="iframe-container">
-                    <iframe class="iframe" src="http://smartworking-chat.wexplore.test/iframe" width="100%" height="660px" frameBorder="0" ></iframe>
+                    <iframe class="iframe" src="{{ config('services.chat_via_iframe.external_iframe_base_url') }}" width="100%" height="660px" frameBorder="0" ></iframe>
                 </div>
 
                 <br><br><br>

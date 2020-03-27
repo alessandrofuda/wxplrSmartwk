@@ -34,4 +34,8 @@ return [
         'customer_key' => env('EWHERE_CUSTOMER_KEY')
     ],
 
+    'chat_via_iframe' => [
+        'external_iframe_base_url' => env('IFRAME_BASE_URL')
+    ],
+
 ];
