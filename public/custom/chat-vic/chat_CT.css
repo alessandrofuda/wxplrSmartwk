@@ -290,6 +290,12 @@ ul > li {
     }
     #chatSendButton { width: 12%; }
     .chat-footer { padding-left: 20px; } 
+    .chat-message-container > div > img { display: none; }
+
+    #smartwork-demo.iframe {padding-left:0; padding-right: 0;}
+    #smartwork-demo.iframe .card .card-body {padding-left:0; padding-right: 0;}
+
+    #smartwork-demo.iframe .demo-container #chatMessageList {padding-left: 0;}
 }
 
 @media screen and (max-height: 500px) {

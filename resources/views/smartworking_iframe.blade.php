@@ -7,7 +7,7 @@
 @endpush
 
 @section('content')
-	<div id="smartwork-demo" class="container-fluid" style="min-height: 5px; height: auto; background-image: none;">
+	<div id="smartwork-demo" class="container-fluid iframe" style="min-height: 5px; height: auto; background-image: none;">
 	    <div class="row justify-content-center">
 	        <div class="col-lg-6 card-container" style="position: relative; top: auto;">
 	            <div class="card">
