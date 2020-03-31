@@ -95,14 +95,14 @@
 					$('#chatMessageList .chat-message-container.darker img').attr('src', '/frontend/images/wexplore-logo-tondo-plain.png');
 				}, 700);
 			});
-			/*$('#chatTextBox').keypress(function(event){
+			$('#chatTextBox').keypress(function(event){
 			    var keycode = (event.keyCode ? event.keyCode : event.which);
 			    if(keycode == '13'){
 			        setTimeout(function(){
 						$('#chatMessageList .chat-message-container.darker img').attr('src', '/frontend/images/wexplore-logo-tondo-plain.png');
 					}, 700); 
 			    }
-			});*/
+			});
 		});
 	</script>
 	
