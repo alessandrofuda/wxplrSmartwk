@@ -85,7 +85,7 @@
 				chat_send : '{{asset('custom/chat-vic/chat_send_msg.png')}}',
 				css_headers : '{{asset('custom/chat-vic/chat_CT.css')}}',
 				flow: '{{ $flow_name }}',
-				disable_signalR: true, 
+				disable_signalR: false, 
 				// session_id: queryParameter("session_id"),
 				session_id: '{{ $session_id }}',
 				customer_key: '{{ config('services.ewhere.customer_key') }}',
