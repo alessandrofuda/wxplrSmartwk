@@ -294,7 +294,7 @@ ul > li {
 
     #smartwork-demo.iframe {padding-left:0; padding-right: 0;}
     #smartwork-demo.iframe .card .card-body {padding-left:0; padding-right: 0;}
-
+    #smartwork-demo.iframe .card .card-body #chat-main { width: 100%; }
     #smartwork-demo.iframe .demo-container #chatMessageList {padding-left: 0;}
 }
 
