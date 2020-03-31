@@ -292,11 +292,11 @@ ul > li {
     .chat-footer { padding-left: 20px; } 
     .chat-message-container > div > img { display: none; }
 
-    #smartwork-demo.iframe {padding-left:0; padding-right: 0;}
-    #smartwork-demo.iframe .card .card-body {padding-left:0; padding-right: 0;}
-    #smartwork-demo.iframe .card .card-body #chat-main { width: 99%; }
-    #smartwork-demo.iframe .card .card-body #chat-main .chat-messages-container { min-height: 85%; }
-    #smartwork-demo.iframe .card .card-body #chat-main #chatMessageList {padding-left: 0;}
+    #smartwork-demo.iframe .card-container { padding-left:0; padding-right: 0; }
+    #smartwork-demo.iframe .card-container .card .card-body {padding-left:0; padding-right: 0;}
+    #smartwork-demo.iframe .card-container .card .card-body #chat-main { width: 100%; }
+    #smartwork-demo.iframe .card-container .card .card-body #chat-main .chat-messages-container { min-height: 85%; }
+    #smartwork-demo.iframe .card-container .card .card-body #chat-main #chatMessageList {padding-left: 0;}
 }
 
 @media screen and (max-height: 500px) {
